@@ -2,6 +2,11 @@
 
 This project is part of TrigerSoft product line. ux-profiler is a chrome browser extension.
 
+* [What is ux-profiler useful for](#what-is-ux-profiler-useful-for)
+* [User Transaction columns](#user-transaction-columns)
+* [What kind of events are tracked](#what-kind-of-events-are-tracked)
+* [What kind of events are not tracked](#what-kind-of-events-are-not-tracked)
+
 ### What is ux-profiler useful for?
 
 1. The first purpose of ux-profiler is to answer a question: *"How much time does it take the user to perform an action?"*. When an action involves network requests, timeouts, requires etc, it's not simple to track these and see the whole picture. ux-profiler does exactly that, tracks and groups related operations and shows them graphicaly, calling them "User Transactions".
