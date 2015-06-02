@@ -24,9 +24,9 @@ This project is part of TrigerSoft product line. ux-profiler is a chrome extensi
 
 ### What kind of events are tracked?
 
-* Any browser events, that are listened using [JQuery](https://jquery.com/) API, e.g. `$(...).click()`. Calling `<element>.addEventListener` directly is not supported.
+* Any browser events, that are listened using <a href="https://jquery.com" target="_blank">JQuery</a> API, e.g. `$(...).click()`. Calling `<element>.addEventListener` directly is not supported.
 * XmlHttpRequests (XHR)
-* [AMD](https://github.com/amdjs/amdjs-api/blob/master/AMD.md) require/requirejs
+* <a href="https://github.com/amdjs/amdjs-api/blob/master/AMD.md" target="_blank">AMD</a> require/requirejs
 * timeouts
 
 ### What kind of events are *not* tracked?
