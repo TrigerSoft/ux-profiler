@@ -10,14 +10,14 @@ This project is part of TrigerSoft product line. ux-profiler is a chrome extensi
 
 # User Transaction columns
 
-* **User Time**: Total time elapsed from user perspective for an operation and its "children"
+* **User Time**: Total time elapsed to perform an operation and its "children" from user perspective.
 * **Self/Total Time**: Self/Total processing (JavaScript execution) time, without delays and waits.
 * **Delay From Parent**: For a child operation, time elapsed since the parent operation ended. Can be negative for the nested events.
 *  **Delay From Invocation**: For a child asynchronous operation, time elapsed since the request (timeout/network/...).
 *  **Exception**: Boolean indicating whether an exception was thrown during processing.
-*  **Timeline**: Graphical relative timeline, useful for comparison of different operations in the _same transaction_. Each line includes:
+*  **Timeline**: Graphical relative timeline, useful for comparison of different operations in the _same user transaction_. Each line includes:
  * **Delay**
  * **Self Work Time**
  * **Children User Time**
  
- In total, 3 these produce the total user time of the operation and its children.
+ In total, 3 these constitute the user time of an operation and its children.
