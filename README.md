@@ -38,9 +38,10 @@ This project is part of TrigerSoft product line. ux-profiler is a chrome browser
 * Any browser events, that are listened using <a href="https://jquery.com" target="_blank">JQuery</a> API, e.g. `$(...).click()`. Calling `<element>.addEventListener` directly is not supported.
 * XmlHttpRequests (XHR)
 * <a href="https://github.com/amdjs/amdjs-api/blob/master/AMD.md" target="_blank">AMD</a> require/requirejs
-* timeouts
+* timeouts < 1000ms
 
 ### What kind of events are *not* tracked?
 
 * Direct `<element>.addEventListener`.
+* setTimeout with timeout >= 1000 ms. If used, is not considered is as part of a user transaction.
 * setInterval - if used, is not considered is as part of a user transaction.
