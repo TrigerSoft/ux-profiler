@@ -3,6 +3,7 @@
 This project is part of TrigerSoft product line. ux-profiler is a chrome browser extension.
 
 * [What is ux-profiler useful for?](#what-is-ux-profiler-useful-for)
+* [Non-goals](#non-goals)
 * [User Transaction column description](#user-transaction-columns)
 * [What kind of events are tracked?](#what-kind-of-events-are-tracked)
 * [What kind of events are not tracked?](#what-kind-of-events-are-not-tracked)
