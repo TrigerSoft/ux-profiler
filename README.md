@@ -1,6 +1,6 @@
 # ux-profiler
 
-This project is part of TrigerSoft product line. ux-profiler is a chrome <a title="open extension page" href="https://chrome.google.com/webstore/detail/ux-profiler/pbggladnflcdnacpafmaahjemhnjmpjc">browser extension</a>.
+This project is part of TrigerSoft product line. ux-profiler is a chrome <a title="open extension page" target="_blank" href="https://chrome.google.com/webstore/detail/ux-profiler/pbggladnflcdnacpafmaahjemhnjmpjc">browser extension</a>.
 
 * [What is ux-profiler useful for?](#what-is-ux-profiler-useful-for)
 * [Non-goals](#non-goals)
